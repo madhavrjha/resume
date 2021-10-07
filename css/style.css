@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 15px;
+    line-height: 1.5rem;
+}
+
+body {
+    background-color: #777;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.container {
+    background-color: #fff;
+    color: #000;
+    width: 780px;
+    margin: 20px auto;
+    padding: 75px 100px;
+}
+
+.section-head {
+    border: 2px solid #000;
+    padding: 0 5px 2px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section li {
+    padding-left: 20px;
+    list-style-image: url('../img/dash.png');
+    list-style-position: inside;
+    line-height: 1.7rem;
+}
+
+/* Header */
+
+section#header h1 {
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 650;
+}
+
+section#header ul {
+    padding-top: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+section#header li {
+    margin-right: 15px;
+    list-style-image: none;
+}
+
+section#header li:last-child {
+    margin-right: 0;
+}
+
+section#header a {
+    font-weight: 500;
+}
+
+/* Objective */
+
+section#objective p {
+    padding-left: 10px;
+    font-weight: 450px;
+}
+
+/* Education */
+
+section#education div {
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+section#education h3 {
+    margin-bottom: 6px;
+    font-weight: 600px;
+}
